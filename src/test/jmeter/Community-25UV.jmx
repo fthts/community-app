@@ -98,7 +98,7 @@
         </BeanShellAssertion>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="Performance Testing 200 VU (2Hrs 03min) [Develop]" enabled="false">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="Performance Testing 200 VU (1hr) [Develop]" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="474627902">
             <stringProp name="53">5</stringProp>
@@ -2167,7 +2167,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
         </PreciseThroughputTimer>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="Performance Testing 100 VU (2Hrs 03min) [Develop]" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="Performance Testing 100 VU (1hr) [Develop]" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="474627902">
             <stringProp name="53">5</stringProp>
@@ -2302,11 +2302,11 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
             <stringProp name="60">60</stringProp>
             <stringProp name="48625">100</stringProp>
           </collectionProp>
-          <collectionProp name="-1190360678">
+          <collectionProp name="471225608">
             <stringProp name="100">100</stringProp>
             <stringProp name="1537493">2090</stringProp>
             <stringProp name="48625">100</stringProp>
-            <stringProp name="60">60</stringProp>
+            <stringProp name="1510492">1360</stringProp>
             <stringProp name="48630">105</stringProp>
           </collectionProp>
         </collectionProp>
@@ -4078,7 +4078,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           <intProp name="exactLimit">10000</intProp>
           <doubleProp>
             <name>throughput</name>
-            <value>180.0</value>
+            <value>300.0</value>
             <savedValue>0.0</savedValue>
           </doubleProp>
           <intProp name="throughputPeriod">60</intProp>

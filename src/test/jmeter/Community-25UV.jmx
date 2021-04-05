@@ -2365,7 +2365,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Sort the list by Title (A-Z) (Page 05) [All Challenges]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;perPage=10&amp;page=5&amp;sortBy=name&amp;sortOrder=asc&amp;tracks[]=DS&amp;tracks[]=Des&amp;tracks[]=Dev&amp;tracks[]=QA&amp;types[]=CH&amp;types[]=F2F&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2395,7 +2395,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Sort the list by Most Recent (Page 05) [All Challenges]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;perPage=10&amp;page=5&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=DS&amp;tracks[]=Des&amp;tracks[]=Dev&amp;tracks[]=QA&amp;types[]=CH&amp;types[]=F2F&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2425,7 +2425,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Load Open for Registration Challenges" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;currentPhaseName=Registration&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=DS&amp;tracks[]=Des&amp;tracks[]=Dev&amp;tracks[]=QA&amp;types[]=CH&amp;types[]=F2F&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2455,7 +2455,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Load Open for Review Challenges" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/challenges?bucket=reviewOpportunities&amp;tracks[DS]=true&amp;tracks[Des]=true&amp;tracks[Dev]=true&amp;tracks[QA]=true" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2485,7 +2485,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Load All Completed Challenges" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Completed&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=DS&amp;tracks[]=Des&amp;tracks[]=Dev&amp;tracks[]=QA&amp;types[]=CH&amp;types[]=F2F&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2515,7 +2515,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Load All Challenges" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=DS&amp;tracks[]=Des&amp;tracks[]=Dev&amp;tracks[]=QA&amp;types[]=CH&amp;types[]=F2F&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2545,7 +2545,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter Design + Challenges [All Challenges]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Des&amp;types[]=CH" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2575,7 +2575,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter Design + Challenges [Registration]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;currentPhaseName=Registration&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Des&amp;types[]=CH" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2605,7 +2605,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter Design + Challenges [Completed]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Completed&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Des&amp;types[]=CH" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2635,7 +2635,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter Design + F2F [All Challenges]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Des&amp;types[]=F2F" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2665,7 +2665,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter Design + F2F [Registration]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;currentPhaseName=Registration&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Des&amp;types[]=F2F" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2695,7 +2695,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter Design + F2F [Completed]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Completed&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Des&amp;types[]=F2F" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2725,7 +2725,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter Design + Task [All Challenges]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Des&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2755,7 +2755,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter Design + Task [Registration]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;currentPhaseName=Registration&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Des&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2785,7 +2785,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter Design + Task [Completed]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Completed&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Des&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2815,7 +2815,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter Dev + Challenges [All Challenges]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Dev&amp;types[]=CH" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2845,7 +2845,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter Dev + Challenges [Registration]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;currentPhaseName=Registration&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Dev&amp;types[]=CH" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2875,7 +2875,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter Dev + Challenges [Completed]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Completed&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Dev&amp;types[]=CH" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2905,7 +2905,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter Dev + F2F [All Challenges]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Dev&amp;types[]=F2F" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2935,7 +2935,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter Dev + Dev [Registration]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;currentPhaseName=Registration&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Dev&amp;types[]=F2F" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2965,7 +2965,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter Dev + F2F [Completed]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Completed&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Dev&amp;types[]=F2F" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -2995,7 +2995,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter Dev + Task [All Challenges]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Dev&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3025,7 +3025,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter Dev + Task [Registration]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;currentPhaseName=Registration&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Dev&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3055,7 +3055,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter Dev + Task [Completed]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Completed&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Dev&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3085,7 +3085,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter DS + Challenges [All Challenges]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=DS&amp;types[]=CH" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3115,7 +3115,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter DS + Challenges [Registration]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;currentPhaseName=Registration&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=DS&amp;types[]=CH" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3145,7 +3145,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter DS + Challenges [Completed]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Completed&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=DS&amp;types[]=CH" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3175,7 +3175,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter DS + F2F [All Challenges]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=DS&amp;types[]=F2F" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3205,7 +3205,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter DS + Dev [Registration]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;currentPhaseName=Registration&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=DS&amp;types[]=F2F" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3235,7 +3235,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter DS + F2F [Completed]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Completed&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=DS&amp;types[]=F2F" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3265,7 +3265,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter DS + Task [All Challenges]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=DS&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3295,7 +3295,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter DS + Task [Registration]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;currentPhaseName=Registration&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=DS&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3325,7 +3325,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter DS + Task [Completed]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Completed&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=DS&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3355,7 +3355,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter QA + Challenges [All Challenges]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=QA&amp;types[]=CH" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3385,7 +3385,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter QA + Challenges [Registration]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;currentPhaseName=Registration&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=QA&amp;types[]=CH" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3415,7 +3415,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter QA + Challenges [Completed]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Completed&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=QA&amp;types[]=CH" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3445,7 +3445,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter QA + F2F [All Challenges]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=QA&amp;types[]=F2F" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3475,7 +3475,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter QA + Dev [Registration]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;currentPhaseName=Registration&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=QA&amp;types[]=F2F" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3505,7 +3505,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter QA + F2F [Completed]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Completed&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=QA&amp;types[]=F2F" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3535,7 +3535,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter QA + Task [All Challenges]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=QA&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3565,7 +3565,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter QA + Task [Registration]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;currentPhaseName=Registration&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=QA&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3595,7 +3595,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter QA + Task [Completed]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Completed&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=QA&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3625,7 +3625,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Complex Filter QA + Dev + Challenges + Task [All Challenges]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?status=Active&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=QA&amp;tracks[]=Dev&amp;types[]=CH&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3655,7 +3655,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Filter Challenges with Custom Dates [Past Challenges]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?startDateEnd=2020-01-31T18%3A29%3A59.999Z&amp;endDateStart=2019-12-31T18%3A30%3A00.000Z&amp;status=Active&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Dev&amp;tracks[]=Des&amp;tracks[]=DS&amp;tracks[]=QA&amp;types[]=CH&amp;types[]=F2F&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3895,7 +3895,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Search [All Challenges]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?search=topcoder&amp;status=Active&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Dev&amp;tracks[]=Des&amp;tracks[]=DS&amp;tracks[]=QA&amp;types[]=CH&amp;types[]=F2F&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3925,7 +3925,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Search [Open for Registration]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?search=topcoder&amp;status=Active&amp;currentPhaseName=Registration&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Dev&amp;tracks[]=Des&amp;tracks[]=DS&amp;tracks[]=QA&amp;types[]=CH&amp;types[]=F2F&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3955,7 +3955,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Search [Completed]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/v5/challenges/?search=topcoder&amp;status=Completed&amp;perPage=10&amp;page=1&amp;sortBy=startDate&amp;sortOrder=desc&amp;tracks[]=Dev&amp;tracks[]=Des&amp;tracks[]=DS&amp;tracks[]=QA&amp;types[]=CH&amp;types[]=F2F&amp;types[]=TSK" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -4078,7 +4078,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
           <intProp name="exactLimit">10000</intProp>
           <doubleProp>
             <name>throughput</name>
-            <value>600.0</value>
+            <value>400.0</value>
             <savedValue>0.0</savedValue>
           </doubleProp>
           <intProp name="throughputPeriod">60</intProp>

@@ -339,21 +339,21 @@ workflows:
           filters:
             branches:
               only:                
-                - gig-application-update
+                - FAQ-theme
       # This is alternate dev env for parallel testing
       - deployQA:
           context : org-global      
           filters:
             branches:
               only:
-                - free
+                - bug-bash
       # This is beta env for production soft releases
       - deployBeta:
           context : org-global
           filters:
             branches:
               only:
-                - develop
+                - bug-bash
       # This is stage env for production QA releases
       - deployStag:
           context : org-global         

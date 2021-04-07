@@ -70,9 +70,9 @@
                             </excludedArtifacts>
                             <jMeterProcessJVMSettings>
                                 <arguments>
-                                    <argument>-XX:MaxMetaspaceSize=256m</argument>
-                                    <argument>-Xmx1024m</argument>
-                                    <argument>-Xms1024m</argument>
+                                    <argument>-XX:MaxMetaspaceSize=512m</argument>
+                                    <argument>-Xmx2048m</argument>
+                                    <argument>-Xms2048m</argument>
                                 </arguments>
                             </jMeterProcessJVMSettings>
 							<testFilesIncluded>
@@ -141,9 +141,9 @@
                             </excludedArtifacts>
                             <jMeterProcessJVMSettings>
                                 <arguments>
-                                    <argument>-XX:MaxMetaspaceSize=256m</argument>
-                                    <argument>-Xmx1024m</argument>
-                                    <argument>-Xms1024m</argument>
+									<argument>-XX:MaxMetaspaceSize=512m</argument>
+                                    <argument>-Xmx2048m</argument>
+                                    <argument>-Xms2048m</argument>
                                 </arguments>
                             </jMeterProcessJVMSettings>
                             <exportedRmiHostname>${hostname}</exportedRmiHostname>
@@ -201,9 +201,9 @@
                             </excludedArtifacts>
                             <jMeterProcessJVMSettings>
                                 <arguments>
-                                    <argument>-XX:MaxMetaspaceSize=256m</argument>
-                                    <argument>-Xmx1024m</argument>
-                                    <argument>-Xms1024m</argument>
+									<argument>-XX:MaxMetaspaceSize=512m</argument>
+                                    <argument>-Xmx2048m</argument>
+                                    <argument>-Xms2048m</argument>
                                 </arguments>
                             </jMeterProcessJVMSettings>
                             <remoteConfig>

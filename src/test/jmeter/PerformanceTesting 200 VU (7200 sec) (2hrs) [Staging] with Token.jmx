@@ -98,7 +98,7 @@
         </BeanShellAssertion>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="Performance Testing 200 VU (7200 sec) (2hrs) [Develop]" enabled="false">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="Performance Testing 200 VU (7200 sec) (2hrs) [Develop]" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="474627902">
             <stringProp name="53">5</stringProp>
@@ -2210,7 +2210,7 @@ start up time/ramp-up time = Shutdown time/ramp-down time of the previous record
         </PreciseThroughputTimer>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="Performance Testing 200 VU (7200 sec) (2hrs) [Develop]" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="Performance Testing 200 VU (7200 sec) (2hrs) [Develop]" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="474627902">
             <stringProp name="53">5</stringProp>
